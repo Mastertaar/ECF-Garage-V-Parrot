@@ -5,7 +5,9 @@ import Home from '../Home';
 import Mecanique from '../Mecanique';
 import Occasions from '../Occasions';
 import Carrosserie from '../Carrosserie';
-import Contact from '../Contact'
+import Contact from '../Contact';
+
+
 function Main() {
   return (
     <MainHeight>
@@ -147,7 +149,7 @@ const Nav= styled.form`
 
 padding: 30px;
 border: 1px solid #A01830;
-background-color: #e6f5fe;
+background-color: #8fa953;
 border-radius: 30px;
 
 
@@ -175,7 +177,7 @@ border-radius: 30px;
   & .reinit{
     color : #A01830;
   padding: 3px 20px;
-  background-color: #cdecfe;
+  background-color: #8fa953;
   border-radius: 30px;
   }
 
