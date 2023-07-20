@@ -27,7 +27,7 @@ function Header() {
           </div>
           <div className='memberSpace'>
           <Link to="/"><img src= {UserPicture} alt=''/></Link>
-          <Link to="/"><img src= {FavoritePicture} alt=''/> </Link>
+          <Link to="/"><img src= {FavoritePicture} alt=''/></Link>
           <Link to="/"><img src= {NewsletterPicture} alt=''/></Link>
           </div>
         </Nav>

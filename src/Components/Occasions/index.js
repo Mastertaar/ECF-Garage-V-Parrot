@@ -1,6 +1,11 @@
 import React from 'react'
 import { styled } from 'styled-components/macro';
 import Car1 from '../../assets/img/Car1.jpg';
+import Car2 from '../../assets/img/Car2.jpg';
+import Car3 from '../../assets/img/Car3.jpg';
+import Car4 from '../../assets/img/Car4.jpg';
+import Car5 from '../../assets/img/Car5.jpg';
+import Car6 from '../../assets/img/Car6.jpg';
 
 
 
@@ -31,7 +36,7 @@ function Occasions() {
           35 000 €
           </div>
           <div>
-          <img src= {Car1} alt='' />
+          <img src= {Car2} alt='' />
           </div>
           <div className='description'>
             <div>
@@ -45,10 +50,82 @@ function Occasions() {
             </div>
             </div>
         </div>
-        <div className='car' >Car3</div>
-        <div className='car' >Car4</div>  
-        <div className='car' >Car5</div>  
-        <div className='car' >Car6</div>        
+        <div className='car car3' >
+        <div className='price'>
+          25 000 €
+          </div>
+          <div>
+          <img src= {Car3} alt='' />
+          </div>
+          <div className='description'>
+            <div>
+            Renault  <br/>
+            Année : 1954<br/>
+            Disesel<br/>
+            20 000 km
+            </div>
+            <div>
+          <button>En savoir plus</button>
+            </div>
+            </div>
+        </div>
+        <div className='car car4' >
+        <div className='price'>
+          5 000 €
+          </div>
+          <div>
+          <img src= {Car4} alt='' />
+          </div>
+          <div className='description'>
+            <div>
+            Citroen  <br/>
+            Année : 1974<br/>
+            Disesel<br/>
+            1 000 km
+            </div>
+            <div>
+          <button>En savoir plus</button>
+            </div>
+            </div>  
+        </div>  
+        <div className='car car5' >
+        <div className='price'>
+          45 000 €
+          </div>
+          <div>
+          <img src= {Car5} alt='' />
+          </div>
+          <div className='description'>
+            <div>
+            Mazda  <br/>
+            Année : 2015<br/>
+            Disesel<br/>
+            25 000 km
+            </div>
+            <div>
+          <button>En savoir plus</button>
+            </div>
+            </div> 
+        </div>  
+        <div className='car car6' >
+        <div className='price'>
+          50 000 €
+          </div>
+          <div>
+          <img src= {Car6} alt='' />
+          </div>
+          <div className='description'>
+            <div>
+            Ford  <br/>
+            Année : 2010<br/>
+            Disesel<br/>
+            20 000 km
+            </div>
+            <div>
+          <button>En savoir plus</button>
+            </div>
+            </div> 
+        </div>        
       </Grid>
 
   )
