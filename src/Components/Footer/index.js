@@ -27,8 +27,8 @@ function Footer() {
       </div>
     
       <div className='adress'>   
-        Garage Vincent PARROT <br/>
-        45 Rue de la liberté  - 91003 Evry 
+        Garage V.PARROT <br/>
+        77 impasse des Invalides - 31500 Toulouse
       </div>
  
     </Wrapper>

@@ -110,8 +110,8 @@ grid-gap: 5px;
 grid-template-columns:1fr 3fr;
 
 & .aside{
-    color: #A01830;
-    background-color: #b4e2fd;
+    color: #351c75;
+    background-color: #ffd966;
     border-radius:30px;
     margin: 5px 0px;
     padding: 20px;
@@ -123,7 +123,7 @@ grid-template-columns:1fr 3fr;
 }
 
 & .mainPage{
-    background-color:	#cdecfe;
+    background-color:	#ffd966;
     border-radius:30px;
     margin: 5px 0px;
     padding: 20px;
@@ -152,8 +152,8 @@ grid-template-columns:1fr 3fr;
 const Nav= styled.form`
 
 padding: 30px;
-border: 1px solid #A01830;
-background-color: #8fa953;
+border: 1px solid #351c75;
+background-color: #ffd966;
 border-radius: 30px;
 
 
