@@ -179,9 +179,9 @@ border-radius: 30px;
 }
 
   & .reinit{
-    color : #A01830;
+    color : #351c75;
   padding: 3px 20px;
-  background-color: #8fa953;
+  background-color: #91a3b0;
   border-radius: 30px;
   }
 
