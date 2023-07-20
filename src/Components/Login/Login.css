@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-input:disabled {
+input {
   border-color: black;
-  background: #ddd;
+  background: #ffd966;
   color: gray;
 }
