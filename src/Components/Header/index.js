@@ -21,6 +21,9 @@ function Header() {
             <Link to="/carrosserie">Carrosserie</Link>
             <Link to="/occasions">Occasions</Link>
             <Link to="/contact">Contact</Link>
+            <Link to="/planning">Planning</Link>
+            <Link to="/preferences">Preferences</Link>
+
           </div>
           <div className='memberSpace'>
           <Link to="/"><img src= {UserPicture} alt=''/></Link>
