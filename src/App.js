@@ -3,7 +3,7 @@ import './App.css';
 import Layout from './Components/Layout';
 import {BrowserRouter, Route, Switch } from 'react-router-dom';
 import Planning from '../src/Components/Planning/Planning';
-import Login from '../Login/Login';
+import Login from './Components/Login/Login';
 import Preferences from '../src/Components/Preferences/Preferences';
 
 
