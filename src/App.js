@@ -1,8 +1,7 @@
 import './App.css';
 import Layout from './Components/Layout';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom';
-import Planning from '../Planning/Planning';
-import Preferences from '../Preferences/Preferences';
+import { BrowserRouter as Router} from 'react-router-dom/cjs/react-router-dom';
+
 
 
 function App() {
