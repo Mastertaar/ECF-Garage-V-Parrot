@@ -8,4 +8,7 @@ input {
   border-color: black;
   background: #ffd966;
   color: gray;
+  width: 100px;
+  height: 10px;
+  
 }
