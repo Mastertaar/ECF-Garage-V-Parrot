@@ -1,11 +1,13 @@
-import React from 'react'
-import { styled } from 'styled-components/macro'
+import React from 'react';
+import { styled } from 'styled-components/macro';
 import { Switch, Route} from 'react-router-dom/cjs/react-router-dom';
 import Home from '../Home';
 import Mecanique from '../Mecanique';
 import Occasions from '../Occasions';
 import Carrosserie from '../Carrosserie';
 import Contact from '../Contact';
+import Planning from '../Planning/Planning';
+import Preferences from '../Preferences/Preferences'
 
 
 function Main() {
@@ -87,6 +89,8 @@ function Main() {
           <Route component={Occasions} path="/occasions" />
           <Route component={Carrosserie} path="/carrosserie" />
           <Route component={Contact} path="/contact" />
+          <Route component={Planning} path="/planning" />
+          <Route component={Preferences} path="/preferences" />
           <Route component={Home} path="/" />
        
           </Switch>
