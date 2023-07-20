@@ -3,3 +3,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+input:disabled {
+  border-color: black;
+  background: #ddd;
+  color: gray;
+}
